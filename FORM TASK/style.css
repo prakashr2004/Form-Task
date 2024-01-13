@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form{
+margin:0px 400px;
+background-color:white;
+height: 450px;
+text-align: center;
+padding: 40px;
+width: 700px;
+border-radius: 10px;
+}
+#user{
+width:680px;
+height: 22px;
+margin-bottom:40px;
+outline: none;
+border: none;
+background: rgb(245,245,245);
+}
+.userridioButton{
+    color: rgb(11,13,17);
+    display: flex;
+    gap: 30px;
+}
+#gmail{
+    width:680px;
+height: 22px;
+margin-bottom:20px;
+margin-top: 40px;
+border: none;
+outline: none;
+background: rgb(245,245,245);
+}
+#textarea{
+    width: 680px;
+    margin-top: 10px;
+border: none;
+background: rgb(245,245,245);
+}
+#box{
+  
+    margin-top: 20px;
+    
+}
+#button{
+    width: 680px;
+    margin-top: 20px;
+    height: 22px;
+    background-color:  rgb(33,35,86);
+    color: white;
+}
+
+
+body{
+    background-color: rgb(33,35,86);
+    font-family: 'Varela Round', sans-serif; 
+}
+.alert{
+    width: 680px;
+    height: 20px;
+    background-color: red;
+margin-top: 0%;
+color: white;
+border-radius: 5px;
+}
+.complete{
+    width: 680px;
+    height: 20px;
+    background-color: green;
+margin-top: 0%;
+color: white;
+border-radius: 5px;
+}

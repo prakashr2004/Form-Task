@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="formInputes">
+        <h2>Feedback Form</h2>
+    <form action="" name="userInputs" class="form">
+        <p id="alert" class="">
+        </p>
+        <div class="username">
+            <label for="user"></label>
+            <input type="text" name="userName" id="user" placeholder="Enteruser name">
+        </div>
+        <div class="userridioButton">
+            <input type="radio" name="select" id="radio" >
+            <label for="radio">Genrel Feedback</label> 
+            <input type="radio" name="select" id="radio1" name="select">
+            <label for="radio1">Techinical Issues</label>
+            <input type="radio" id="radio2"  name="select">
+            <label for="radio2">Data Lost issues</label>
+        </div>
+        <div class="usermail">
+            <label for="gmail"></label>
+            <input type="email" name="Email" id="gmail" placeholder="you@gmail.com">
+        </div>
+        <div class="placeArea">
+            <textarea name="Feedback" id="textarea" cols="30" rows="10" placeholder="Pls Enter your Feedback"></textarea>
+        </div>
+        <div class="chcklist">
+        <input type="checkbox" id="box" name="checkbox">
+        <label for="box">I accept the terms and condition of this Feedback form</label>  
+    </div>
+    <div class="controlButton">
+        <label for="button"></label>
+        <input type="submit" id="button" name="submit">
+    </div>
+    </form>
+</div>
+<script src="form.js"></script>
+</body>
+</html>
